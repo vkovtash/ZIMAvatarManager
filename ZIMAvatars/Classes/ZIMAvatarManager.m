@@ -53,7 +53,6 @@ static inline NSArray *bundleImagePaths(NSBundle *bundle) {
 - (UIImage *) avatarForTag:(NSUInteger) tag {
     UIImage *avatar = nil;
     if (_imagePaths.count > 0) {
-        NSLog(@"%u %u %u",tag % _imagePaths.count, _imagePaths.count, tag);
         NSString *pathForTag = _imagePaths[tag % _imagePaths.count];
         avatar = _imageChache[pathForTag];
         if (!avatar) {
