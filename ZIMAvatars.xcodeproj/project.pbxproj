@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34E24F718C0FDE800C4EFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E24F618C0FDE800C4EFC7 /* Foundation.framework */; };
+		F34E24F918C0FDE800C4EFC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E24F818C0FDE800C4EFC7 /* CoreGraphics.framework */; };
+		F34E24FB18C0FDE800C4EFC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E24FA18C0FDE800C4EFC7 /* UIKit.framework */; };
+		F34E250118C0FDE800C4EFC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F34E24FF18C0FDE800C4EFC7 /* InfoPlist.strings */; };
+		F34E250318C0FDE800C4EFC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E250218C0FDE800C4EFC7 /* main.m */; };
+		F34E250718C0FDE800C4EFC7 /* ZIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E250618C0FDE800C4EFC7 /* ZIMAppDelegate.m */; };
+		F34E250A18C0FDE800C4EFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34E250818C0FDE800C4EFC7 /* Main.storyboard */; };
+		F34E250D18C0FDE800C4EFC7 /* ZIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E250C18C0FDE800C4EFC7 /* ZIMViewController.m */; };
+		F34E250F18C0FDE800C4EFC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34E250E18C0FDE800C4EFC7 /* Images.xcassets */; };
+		F34E251618C0FDE800C4EFC7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E251518C0FDE800C4EFC7 /* XCTest.framework */; };
+		F34E251718C0FDE800C4EFC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E24F618C0FDE800C4EFC7 /* Foundation.framework */; };
+		F34E251818C0FDE800C4EFC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E24FA18C0FDE800C4EFC7 /* UIKit.framework */; };
+		F34E252018C0FDE800C4EFC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F34E251E18C0FDE800C4EFC7 /* InfoPlist.strings */; };
+		F34E252218C0FDE800C4EFC7 /* ZIMAvatarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E252118C0FDE800C4EFC7 /* ZIMAvatarsTests.m */; };
+		F34E252D18C0FE3D00C4EFC7 /* ZIMCats.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F34E252C18C0FE3D00C4EFC7 /* ZIMCats.bundle */; };
+		F34E253018C0FE8A00C4EFC7 /* ZIMAvatarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E252F18C0FE8A00C4EFC7 /* ZIMAvatarManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34E251918C0FDE800C4EFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34E24EB18C0FDE800C4EFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34E24F218C0FDE800C4EFC7;
+			remoteInfo = ZIMCatAvatars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F34E24F318C0FDE800C4EFC7 /* ZIMAvatars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIMAvatars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E24F618C0FDE800C4EFC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F34E24F818C0FDE800C4EFC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F34E24FA18C0FDE800C4EFC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F34E24FE18C0FDE800C4EFC7 /* ZIMAvatars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZIMAvatars-Info.plist"; sourceTree = "<group>"; };
+		F34E250018C0FDE800C4EFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F34E250218C0FDE800C4EFC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F34E250418C0FDE800C4EFC7 /* ZIMAvatars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZIMAvatars-Prefix.pch"; sourceTree = "<group>"; };
+		F34E250518C0FDE800C4EFC7 /* ZIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZIMAppDelegate.h; sourceTree = "<group>"; };
+		F34E250618C0FDE800C4EFC7 /* ZIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIMAppDelegate.m; sourceTree = "<group>"; };
+		F34E250918C0FDE800C4EFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F34E250B18C0FDE800C4EFC7 /* ZIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZIMViewController.h; sourceTree = "<group>"; };
+		F34E250C18C0FDE800C4EFC7 /* ZIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIMViewController.m; sourceTree = "<group>"; };
+		F34E250E18C0FDE800C4EFC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F34E251418C0FDE800C4EFC7 /* ZIMAvatarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZIMAvatarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34E251518C0FDE800C4EFC7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F34E251D18C0FDE800C4EFC7 /* ZIMAvatarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZIMAvatarsTests-Info.plist"; sourceTree = "<group>"; };
+		F34E251F18C0FDE800C4EFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F34E252118C0FDE800C4EFC7 /* ZIMAvatarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIMAvatarsTests.m; sourceTree = "<group>"; };
+		F34E252C18C0FE3D00C4EFC7 /* ZIMCats.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZIMCats.bundle; sourceTree = "<group>"; };
+		F34E252E18C0FE8A00C4EFC7 /* ZIMAvatarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIMAvatarManager.h; sourceTree = "<group>"; };
+		F34E252F18C0FE8A00C4EFC7 /* ZIMAvatarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIMAvatarManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34E24F018C0FDE800C4EFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E24F918C0FDE800C4EFC7 /* CoreGraphics.framework in Frameworks */,
+				F34E24FB18C0FDE800C4EFC7 /* UIKit.framework in Frameworks */,
+				F34E24F718C0FDE800C4EFC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E251118C0FDE800C4EFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E251618C0FDE800C4EFC7 /* XCTest.framework in Frameworks */,
+				F34E251818C0FDE800C4EFC7 /* UIKit.framework in Frameworks */,
+				F34E251718C0FDE800C4EFC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F34E24EA18C0FDE800C4EFC7 = {
+			isa = PBXGroup;
+			children = (
+				F34E24FC18C0FDE800C4EFC7 /* ZIMAvatars */,
+				F34E251B18C0FDE800C4EFC7 /* ZIMAvatarsTests */,
+				F34E24F518C0FDE800C4EFC7 /* Frameworks */,
+				F34E24F418C0FDE800C4EFC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34E24F418C0FDE800C4EFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34E24F318C0FDE800C4EFC7 /* ZIMAvatars.app */,
+				F34E251418C0FDE800C4EFC7 /* ZIMAvatarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34E24F518C0FDE800C4EFC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F34E24F618C0FDE800C4EFC7 /* Foundation.framework */,
+				F34E24F818C0FDE800C4EFC7 /* CoreGraphics.framework */,
+				F34E24FA18C0FDE800C4EFC7 /* UIKit.framework */,
+				F34E251518C0FDE800C4EFC7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F34E24FC18C0FDE800C4EFC7 /* ZIMAvatars */ = {
+			isa = PBXGroup;
+			children = (
+				F34E252B18C0FE3D00C4EFC7 /* Classes */,
+				F34E250518C0FDE800C4EFC7 /* ZIMAppDelegate.h */,
+				F34E250618C0FDE800C4EFC7 /* ZIMAppDelegate.m */,
+				F34E250818C0FDE800C4EFC7 /* Main.storyboard */,
+				F34E250B18C0FDE800C4EFC7 /* ZIMViewController.h */,
+				F34E250C18C0FDE800C4EFC7 /* ZIMViewController.m */,
+				F34E250E18C0FDE800C4EFC7 /* Images.xcassets */,
+				F34E24FD18C0FDE800C4EFC7 /* Supporting Files */,
+			);
+			path = ZIMAvatars;
+			sourceTree = "<group>";
+		};
+		F34E24FD18C0FDE800C4EFC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34E24FE18C0FDE800C4EFC7 /* ZIMAvatars-Info.plist */,
+				F34E24FF18C0FDE800C4EFC7 /* InfoPlist.strings */,
+				F34E250218C0FDE800C4EFC7 /* main.m */,
+				F34E250418C0FDE800C4EFC7 /* ZIMAvatars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F34E251B18C0FDE800C4EFC7 /* ZIMAvatarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34E252118C0FDE800C4EFC7 /* ZIMAvatarsTests.m */,
+				F34E251C18C0FDE800C4EFC7 /* Supporting Files */,
+			);
+			path = ZIMAvatarsTests;
+			sourceTree = "<group>";
+		};
+		F34E251C18C0FDE800C4EFC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34E251D18C0FDE800C4EFC7 /* ZIMAvatarsTests-Info.plist */,
+				F34E251E18C0FDE800C4EFC7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F34E252B18C0FE3D00C4EFC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F34E252C18C0FE3D00C4EFC7 /* ZIMCats.bundle */,
+				F34E252E18C0FE8A00C4EFC7 /* ZIMAvatarManager.h */,
+				F34E252F18C0FE8A00C4EFC7 /* ZIMAvatarManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34E24F218C0FDE800C4EFC7 /* ZIMAvatars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34E252518C0FDE800C4EFC7 /* Build configuration list for PBXNativeTarget "ZIMAvatars" */;
+			buildPhases = (
+				F34E24EF18C0FDE800C4EFC7 /* Sources */,
+				F34E24F018C0FDE800C4EFC7 /* Frameworks */,
+				F34E24F118C0FDE800C4EFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIMAvatars;
+			productName = ZIMCatAvatars;
+			productReference = F34E24F318C0FDE800C4EFC7 /* ZIMAvatars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F34E251318C0FDE800C4EFC7 /* ZIMAvatarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34E252818C0FDE800C4EFC7 /* Build configuration list for PBXNativeTarget "ZIMAvatarsTests" */;
+			buildPhases = (
+				F34E251018C0FDE800C4EFC7 /* Sources */,
+				F34E251118C0FDE800C4EFC7 /* Frameworks */,
+				F34E251218C0FDE800C4EFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34E251A18C0FDE800C4EFC7 /* PBXTargetDependency */,
+			);
+			name = ZIMAvatarsTests;
+			productName = ZIMCatAvatarsTests;
+			productReference = F34E251418C0FDE800C4EFC7 /* ZIMAvatarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34E24EB18C0FDE800C4EFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZIM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = kovtash.com;
+				TargetAttributes = {
+					F34E251318C0FDE800C4EFC7 = {
+						TestTargetID = F34E24F218C0FDE800C4EFC7;
+					};
+				};
+			};
+			buildConfigurationList = F34E24EE18C0FDE800C4EFC7 /* Build configuration list for PBXProject "ZIMAvatars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34E24EA18C0FDE800C4EFC7;
+			productRefGroup = F34E24F418C0FDE800C4EFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34E24F218C0FDE800C4EFC7 /* ZIMAvatars */,
+				F34E251318C0FDE800C4EFC7 /* ZIMAvatarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34E24F118C0FDE800C4EFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E250F18C0FDE800C4EFC7 /* Images.xcassets in Resources */,
+				F34E252D18C0FE3D00C4EFC7 /* ZIMCats.bundle in Resources */,
+				F34E250118C0FDE800C4EFC7 /* InfoPlist.strings in Resources */,
+				F34E250A18C0FDE800C4EFC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E251218C0FDE800C4EFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E252018C0FDE800C4EFC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34E24EF18C0FDE800C4EFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E250318C0FDE800C4EFC7 /* main.m in Sources */,
+				F34E250718C0FDE800C4EFC7 /* ZIMAppDelegate.m in Sources */,
+				F34E253018C0FE8A00C4EFC7 /* ZIMAvatarManager.m in Sources */,
+				F34E250D18C0FDE800C4EFC7 /* ZIMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34E251018C0FDE800C4EFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34E252218C0FDE800C4EFC7 /* ZIMAvatarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34E251A18C0FDE800C4EFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34E24F218C0FDE800C4EFC7 /* ZIMAvatars */;
+			targetProxy = F34E251918C0FDE800C4EFC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F34E24FF18C0FDE800C4EFC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34E250018C0FDE800C4EFC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F34E250818C0FDE800C4EFC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34E250918C0FDE800C4EFC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F34E251E18C0FDE800C4EFC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34E251F18C0FDE800C4EFC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34E252318C0FDE800C4EFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F34E252418C0FDE800C4EFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34E252618C0FDE800C4EFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZIMAvatars/ZIMAvatars-Prefix.pch";
+				INFOPLIST_FILE = "ZIMAvatars/ZIMAvatars-Info.plist";
+				PRODUCT_NAME = ZIMAvatars;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F34E252718C0FDE800C4EFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZIMAvatars/ZIMAvatars-Prefix.pch";
+				INFOPLIST_FILE = "ZIMAvatars/ZIMAvatars-Info.plist";
+				PRODUCT_NAME = ZIMAvatars;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F34E252918C0FDE800C4EFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZIMCatAvatars.app/ZIMCatAvatars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZIMCatAvatars/ZIMCatAvatars-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZIMCatAvatarsTests/ZIMAvatarsTests-Info.plist";
+				PRODUCT_NAME = ZIMAvatarsTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F34E252A18C0FDE800C4EFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZIMCatAvatars.app/ZIMCatAvatars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZIMCatAvatars/ZIMCatAvatars-Prefix.pch";
+				INFOPLIST_FILE = "ZIMCatAvatarsTests/ZIMAvatarsTests-Info.plist";
+				PRODUCT_NAME = ZIMAvatarsTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34E24EE18C0FDE800C4EFC7 /* Build configuration list for PBXProject "ZIMAvatars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E252318C0FDE800C4EFC7 /* Debug */,
+				F34E252418C0FDE800C4EFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34E252518C0FDE800C4EFC7 /* Build configuration list for PBXNativeTarget "ZIMAvatars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E252618C0FDE800C4EFC7 /* Debug */,
+				F34E252718C0FDE800C4EFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34E252818C0FDE800C4EFC7 /* Build configuration list for PBXNativeTarget "ZIMAvatarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34E252918C0FDE800C4EFC7 /* Debug */,
+				F34E252A18C0FDE800C4EFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34E24EB18C0FDE800C4EFC7 /* Project object */;
+}
